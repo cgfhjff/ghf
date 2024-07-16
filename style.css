@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+body{
+    background-color: #f3e5d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.full{
+    margin-top: 100px;
+    background-color: white;
+    width: 700px;
+    padding: 30px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+    
+}
+.full .imag img{
+    max-width: 100%;
+    border-radius: 25px;
+}
+.full .imag h2{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "Young Serif";
+    font-weight: 300;
+}
+.full .imag p{
+    margin-top: 14px;
+    font-size: 15px;
+}
+.box{
+    background-color: #fff7fc;
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.box h2{
+    color: #975973;
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+.box ul{
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.box ul li{
+    margin-top: 10px;
+}
+.box ul li::marker{
+    color: #975973;
+}
+.box ul span{
+    font-weight: 600;
+    color: rgb(106, 106, 106);
+}
+.list h2{
+    margin-top: 20px;
+    color: #864337;
+    font-size: 30px;
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+.list ul{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.list ul li{
+    margin-top: 15px;
+}
+.list ul li::marker{
+    color: #864337;
+}
+hr{
+    margin-top: 30px;
+}
+.nember h2{
+    margin-top: 20px;
+    color: #864337;
+    font-size: 30px;
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+.nember ul{
+    list-style-type: m;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.nember li{
+    margin-top: 15px;
+}
+.nember li span{
+    font-weight: 600;
+    color: rgb(94, 94, 94);
+}
+.nember ul li::marker{
+    color: #864337;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.prodect h2 {
+    margin-top: 20px;
+    color: #864337;
+    font-size: 30px;
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+.des{
+    margin-bottom: 20px;
+}
+.des p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.des h3{
+    margin-top: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+    
+}
+.line{
+    margin-top: 15px;
+    color: rgb(177, 2, 2);
+}
+.des h3 span{
+    margin-left: 200px;
+    color: #864337;
+    font-weight: 700;
+}
+.des h3 .sp1{
+    margin-left: 220px;
+}
+.des h3 .sp2{
+    margin-left: 210px;
+}
+.des h3 .sp3{
+    margin-left: 249px;
+}
